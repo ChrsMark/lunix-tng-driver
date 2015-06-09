@@ -6,9 +6,11 @@ The goal is to receive raw data from a system of sensors (light-batt-temp), to "
 and then provide them to user space. 
 Our implementation takes care of what would happen if more than one users make use of the device, by using locks and spinlocks appropriately.
 
+A lot of code is given from the course director (vkoukis) as a skeleton. Each file refers explicitly its author.
+
 
 Authors : Nikolaos Papadis (nikpapadis@gmail.com), Chris Mark (chrs.markx86@gmail.com)
-(a lot of code is given from the course director ,"vkoukis", as a skeleton. Each file refers explicitly its author.) 
+
 
 School of ECE, National Technical University of Athens
 
